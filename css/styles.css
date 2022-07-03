@@ -7,6 +7,7 @@
   --accent-color: #2196F3;
   --btn-accent-color: #188CE8;
   --card-bg-color: #EEEEEE;
+  --icon-color: #AFB1B8;
 
   /* Світла тема тексту */
   --primary-txt-light: #757575;
@@ -319,7 +320,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .team-profession {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -327,6 +328,40 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
 
   color: var(--primary-txt-light);
+}
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  color: var(--icon-color);
+  border-radius: 50%;
+
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-txt-dark);
+}
+
+.socials-icon {
+  fill: currentColor;
+}
+
+.socials-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Portfolio */
