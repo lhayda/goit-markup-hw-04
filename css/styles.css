@@ -8,6 +8,7 @@
   --btn-accent-color: #188CE8;
   --card-bg-color: #EEEEEE;
   --icon-color: #AFB1B8;
+  --bg-hero: #C4C4C4;
 
   /* Світла тема тексту */
   --primary-txt-light: #757575;
@@ -193,10 +194,15 @@ img {
 /* Hero */
 
 .hero {
+  min-width: 1600px;
   padding: 200px 0;
   text-align: center;
 
-  background-color: var(--primary-bg-dark);
+  background-color: var(--bg-hero);
+  background-image: url(../images/hero/bg-hero.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hero-tittle {
@@ -303,8 +309,12 @@ border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
 }
 
-.team-img {
+/* .team-img {
   margin-bottom: 30px;
+} */
+
+.team-content {
+  margin: 30px 0;
 }
 
 .team-name {
@@ -334,7 +344,7 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   justify-content: center;
 
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .socials-link {
