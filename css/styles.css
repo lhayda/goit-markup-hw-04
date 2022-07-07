@@ -194,14 +194,14 @@ img {
 /* Hero */
 
 .hero {
-  min-width: 1600px;
+  max-width: 1600px;
   padding: 200px 0;
   text-align: center;
 
   background-color: var(--bg-hero);
   background-image: url(../images/hero/bg-hero.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
