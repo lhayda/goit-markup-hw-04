@@ -193,6 +193,14 @@ img {
 
 /* Hero */
 
+.aaa{
+  background: #000;
+  display: block;
+  fill: #000;
+  width: 100px;
+  height: 100px;
+}
+
 .hero {
   max-width: 1600px;
   padding: 200px 0;
