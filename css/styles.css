@@ -165,7 +165,15 @@ img {
 }
 
 .auth-link {
+  display: flex;
+  align-items: center;
+
   color: var(--primary-txt-light);
+}
+
+.auth-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .nav-link:hover,
