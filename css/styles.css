@@ -263,8 +263,22 @@ img {
   display: flex;
 }
 
+.feature-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
 .feature-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.specifics-wrapper {
+  margin-bottom: 30px;
+  padding: 25px 0;
+
+  text-align: center;
+
+  background-color: var(--secondary-bg-light);
+  border-radius: 4px;
 }
 
 .feature-tittle {
@@ -380,6 +394,24 @@ border-radius: 0px 0px 4px 4px;
 
 .socials-item:not(:last-child) {
   margin-right: 10px;
+}
+
+/* Regular-customers */
+
+.regular-customers-list {
+  display: flex;
+}
+
+.regular-customers-item {
+  flex-basis: calc((100% - 150px) / 6);
+}
+
+.regular-customers-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.regular-customers-link {
+  
 }
 
 /* Portfolio */
