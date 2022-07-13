@@ -591,4 +591,9 @@ border-radius: 0px 0px 4px 4px;
   color: var(--primary-txt-dark);
 }
 
+.footer .socials-link:hover,
+.footer .socials-link:focus {
+  background-color: var(--accent-color);
+}
+
 
